@@ -14,7 +14,7 @@
     --color-bg-dark: #3a3a3a;
     --color-bg-black: #111111;
     --color-white: #fefefe;
-    --color-primary: #7634d8;
+    --color-primary: #949398ff;
     --color-danger: rgb(249, 84, 84);
 }
 
@@ -23,7 +23,7 @@ body {
     display: grid;
     place-items: center;
     color: var(--color-white);
-    background: #ccc;
+    background: #fddf4eff;
     line-height: 1.5;
 }
 

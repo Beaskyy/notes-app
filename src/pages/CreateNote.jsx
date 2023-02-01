@@ -15,14 +15,13 @@ const CreateNote = ({ setNotes }) => {
     e.preventDefault();
     if (title && details) {
       const note = { id: uuid(), title, details, date };
-      setTitle("");
-      setDetails("");
+      
+      // add this note to the Notes array
       setNotes(prevNotes => [note, ...prevNotes]);
+
+      // redirect to the homepage
       navigate('/')
     }
-    // localStorage.setItem("title", title)
-    // localStorage.setItem("details", details)
-    // window.location.href = "/"
   };
   return (
     <section>
